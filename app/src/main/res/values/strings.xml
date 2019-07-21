@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PokeAPITestTask</string>
+    <string name="HeightPlace">Height</string>
+    <string name="WeightPlace">Weight</string>
+    <string name="TypePlace">Type</string>
+    <string name="AttackPlace">Attack</string>
+    <string name="DefencePlace">Defence</string>
+    <string name="HpPlace">Hp</string>
+</resources>

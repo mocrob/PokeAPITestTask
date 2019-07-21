@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pokes_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:padding="4dp"
+        android:layout_marginBottom="100dp"
+        android:scrollbars="vertical" />
+
+    <ProgressBar
+        android:id="@+id/pokes_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAttack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attack"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="65dp"/>
+    <CheckBox
+        android:id="@+id/checkBoxDefence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Defence"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="35dp"/>
+    <CheckBox
+        android:id="@+id/checkBoxHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/reloadPokeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:src="@drawable/ic_autorenew_black_100dp"
+        app:maxImageSize="50dp" />
+
+
+
+
+</FrameLayout>
